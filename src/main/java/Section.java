@@ -8,9 +8,9 @@ public final class Section extends Polygon{
         this.p2 = p2;
     }
 
-    @Override //getClass() used instead of overwritting toString()
+    @Override
     public String getArea() {
-        String area = String.format("area calculated for %s", this.getClass());
+        String area = String.format("area calculated for Section");
         return area;
     }
 }

@@ -16,6 +16,7 @@ public class Main {
 
         System.out.println(c1.getArea());
         System.out.println(section1.getArea());
+        System.out.println(triangle.getArea());
 
         //Circle c2 = new Circle(p2, -10);
 
